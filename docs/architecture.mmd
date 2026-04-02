@@ -1,0 +1,62 @@
+flowchart LR
+    subgraph BenchmarkData["Benchmark Data"]
+        Tasks["Tasks"]
+        Validators["Validators"]
+        Tasks --> Validators
+    end
+
+    subgraph Tooling["Local Tools"]
+        SQL["sql_query"]
+        Logs["log_search"]
+        Files["file_read / file_write"]
+        Python["python_exec / run_tests"]
+    end
+
+    subgraph LLMs["LLM Backends"]
+        Mock["MockLLM"]
+        OpenAI["OpenAIClient (optional)"]
+    end
+
+    subgraph Agents["Agents"]
+        React["ReAct"]
+        Plan["Plan-only"]
+        Adaptive["Adaptive"]
+        Ablations["Ablations"]
+    end
+
+    subgraph Eval["Evaluation"]
+        Runner["Runner"]
+        Report["Report"]
+    end
+
+    subgraph Artifacts["Run Artifacts"]
+        Runs["runs/<timestamp>"]
+        Trajectories["trajectories/<scenario>/<agent>/<task>.json"]
+        Config["config.json / tasks_snapshot.jsonl / tool_schema.json"]
+        Summary["summary.json / report.md"]
+    end
+
+    Tasks --> Runner
+    Validators --> Runner
+    SQL --> Runner
+    Logs --> Runner
+    Files --> Runner
+    Python --> Runner
+    Mock --> React
+    Mock --> Plan
+    Mock --> Adaptive
+    Mock --> Ablations
+    OpenAI --> React
+    OpenAI --> Plan
+    OpenAI --> Adaptive
+    OpenAI --> Ablations
+    React --> Runner
+    Plan --> Runner
+    Adaptive --> Runner
+    Ablations --> Runner
+    Runner --> Report
+    Runner --> Runs
+    Runs --> Trajectories
+    Runs --> Config
+    Runs --> Summary
+    Report --> Summary

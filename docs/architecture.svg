@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <style>
+    .title { font: 700 28px sans-serif; fill: #14213d; }
+    .group { fill: #f8f9fb; stroke: #a8b2c1; stroke-width: 2; rx: 18; }
+    .box { fill: #ffffff; stroke: #3d5a80; stroke-width: 2; rx: 12; }
+    .label { font: 600 18px sans-serif; fill: #14213d; }
+    .small { font: 500 15px sans-serif; fill: #293241; }
+    .arrow { stroke: #556987; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#556987"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="44" class="title">AutoToolBench Architecture</text>
+
+  <rect x="40" y="80" width="250" height="180" class="group"/>
+  <text x="60" y="112" class="label">Tasks and Validators</text>
+  <rect x="60" y="132" width="210" height="44" class="box"/>
+  <text x="85" y="160" class="small">Generated tasks with task_type and budget mode</text>
+  <rect x="60" y="190" width="210" height="44" class="box"/>
+  <text x="95" y="218" class="small">Strong validators and artifact checks</text>
+
+  <rect x="40" y="300" width="250" height="220" class="group"/>
+  <text x="60" y="332" class="label">Tools</text>
+  <rect x="60" y="350" width="210" height="40" class="box"/>
+  <text x="123" y="375" class="small">sql_query</text>
+  <rect x="60" y="402" width="210" height="40" class="box"/>
+  <text x="121" y="427" class="small">log_search</text>
+  <rect x="60" y="454" width="210" height="40" class="box"/>
+  <text x="96" y="479" class="small">file_read / file_write</text>
+  <rect x="60" y="506" width="210" height="40" class="box"/>
+  <text x="77" y="531" class="small">python_exec / run_tests</text>
+
+  <rect x="340" y="80" width="230" height="150" class="group"/>
+  <text x="360" y="112" class="label">LLM Backends</text>
+  <rect x="360" y="132" width="190" height="44" class="box"/>
+  <text x="425" y="160" class="small">MockLLM</text>
+  <rect x="360" y="186" width="190" height="44" class="box"/>
+  <text x="392" y="214" class="small">OpenAIClient (optional)</text>
+
+  <rect x="340" y="280" width="230" height="270" class="group"/>
+  <text x="360" y="312" class="label">Agents</text>
+  <rect x="360" y="332" width="190" height="40" class="box"/>
+  <text x="431" y="357" class="small">ReAct</text>
+  <rect x="360" y="384" width="190" height="40" class="box"/>
+  <text x="417" y="409" class="small">Plan-only</text>
+  <rect x="360" y="436" width="190" height="40" class="box"/>
+  <text x="414" y="461" class="small">Adaptive</text>
+  <rect x="360" y="488" width="190" height="40" class="box"/>
+  <text x="406" y="513" class="small">Ablation variants</text>
+
+  <rect x="640" y="160" width="220" height="150" class="group"/>
+  <text x="660" y="192" class="label">Evaluation</text>
+  <rect x="660" y="214" width="180" height="42" class="box"/>
+  <text x="726" y="240" class="small">Runner</text>
+  <rect x="660" y="266" width="180" height="42" class="box"/>
+  <text x="726" y="292" class="small">Report</text>
+
+  <rect x="910" y="100" width="250" height="340" class="group"/>
+  <text x="930" y="132" class="label">Run Artifacts</text>
+  <rect x="930" y="154" width="210" height="46" class="box"/>
+  <text x="980" y="183" class="small">runs/&lt;timestamp&gt;</text>
+  <rect x="930" y="214" width="210" height="54" class="box"/>
+  <text x="957" y="244" class="small">config.json / tasks_snapshot.jsonl</text>
+  <rect x="930" y="282" width="210" height="54" class="box"/>
+  <text x="959" y="312" class="small">tool_schema.json / summary.json</text>
+  <rect x="930" y="350" width="210" height="60" class="box"/>
+  <text x="950" y="382" class="small">trajectories/&lt;scenario&gt;/&lt;agent&gt;/&lt;task&gt;.json</text>
+
+  <path d="M270 154 H330" class="arrow"/>
+  <path d="M270 212 H330" class="arrow"/>
+  <path d="M270 370 H330" class="arrow"/>
+  <path d="M270 422 H330" class="arrow"/>
+  <path d="M270 474 H330" class="arrow"/>
+  <path d="M270 526 H330" class="arrow"/>
+  <path d="M550 154 H630 V235 H660" class="arrow"/>
+  <path d="M550 208 H620 V235 H660" class="arrow"/>
+  <path d="M550 352 H620 V235 H660" class="arrow"/>
+  <path d="M550 404 H620 V235 H660" class="arrow"/>
+  <path d="M550 456 H620 V235 H660" class="arrow"/>
+  <path d="M550 508 H620 V235 H660" class="arrow"/>
+  <path d="M840 235 H910" class="arrow"/>
+  <path d="M840 287 H910" class="arrow"/>
+</svg>

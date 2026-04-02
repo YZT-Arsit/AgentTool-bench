@@ -1,0 +1,2 @@
+Current customer audit target: Alice.
+Paid order review should use live order rows.

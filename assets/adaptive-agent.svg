@@ -1,0 +1,40 @@
+<svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="480" rx="28" fill="#09111F"/>
+  <rect x="24" y="24" width="1552" height="432" rx="24" fill="url(#bg)"/>
+  <circle cx="1290" cy="126" r="170" fill="#1D4ED8" fill-opacity="0.18"/>
+  <circle cx="1372" cy="322" r="190" fill="#F97316" fill-opacity="0.16"/>
+  <circle cx="118" cy="382" r="130" fill="#10B981" fill-opacity="0.14"/>
+  <path d="M116 131H330" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M116 240H330" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+  <path d="M116 349H330" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" opacity="0.22"/>
+  <rect x="360" y="97" width="248" height="84" rx="18" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+  <rect x="678" y="97" width="248" height="84" rx="18" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
+  <rect x="996" y="97" width="248" height="84" rx="18" fill="#0F172A" stroke="#F97316" stroke-width="2"/>
+  <rect x="678" y="257" width="248" height="84" rx="18" fill="#0F172A" stroke="#A78BFA" stroke-width="2"/>
+  <path d="M608 139H678" stroke="#7DD3FC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M926 139H996" stroke="#6EE7B7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1120 181V220C1120 236.569 1106.57 250 1090 250H950" stroke="#FDBA74" stroke-width="6" stroke-linecap="round"/>
+  <path d="M802 257V215" stroke="#C4B5FD" stroke-width="6" stroke-linecap="round"/>
+  <path d="M802 215H802" stroke="#C4B5FD" stroke-width="6" stroke-linecap="round"/>
+  <path d="M678 299H502C469.967 299 444 273.033 444 241V181" stroke="#C4B5FD" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="608" cy="139" r="8" fill="#7DD3FC"/>
+  <circle cx="678" cy="139" r="8" fill="#7DD3FC"/>
+  <circle cx="926" cy="139" r="8" fill="#6EE7B7"/>
+  <circle cx="996" cy="139" r="8" fill="#6EE7B7"/>
+  <circle cx="950" cy="250" r="8" fill="#FDBA74"/>
+  <circle cx="444" cy="181" r="8" fill="#C4B5FD"/>
+  <text x="116" y="94" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="34" font-weight="700">Adaptive-Agent</text>
+  <text x="116" y="425" fill="#93C5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="28">robust enterprise tool-use under noise, reflection, and replanning</text>
+  <text x="400" y="148" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Perceive</text>
+  <text x="718" y="148" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Reflect</text>
+  <text x="1034" y="148" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Re-plan</text>
+  <text x="706" y="308" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Recover</text>
+  <text x="395" y="365" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="24">Structured validator-guided loop for high-noise execution paths.</text>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="54" x2="1508" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1324"/>
+      <stop offset="0.52" stop-color="#0E1A30"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>

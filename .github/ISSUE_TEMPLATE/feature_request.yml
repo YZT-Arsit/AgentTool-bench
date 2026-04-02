@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose an improvement to the framework, benchmark, or developer workflow.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What limitation or missing capability are you trying to address?
+      placeholder: The current benchmark does not cover ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the API, UX, or benchmark behavior you want to add.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Mention other approaches or why the current behavior is insufficient.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected impact
+      description: Explain how this improves robustness, evaluation quality, or contributor experience.

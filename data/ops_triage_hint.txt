@@ -1,0 +1,1 @@
+If the brief mentions a request, collect live incident lines rather than copying the brief text.

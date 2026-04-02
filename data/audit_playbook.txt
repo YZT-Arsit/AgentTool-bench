@@ -1,0 +1,2 @@
+Audit target: platform team.
+Use the live user roster from the database, not stale notes.

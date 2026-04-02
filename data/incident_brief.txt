@@ -1,0 +1,3 @@
+Incident: REQ-404
+Owner: payments-api
+Action: escalate to database team

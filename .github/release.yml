@@ -1,0 +1,29 @@
+changelog:
+  categories:
+    - title: Breaking Changes
+      labels:
+        - breaking-change
+    - title: Features
+      labels:
+        - enhancement
+        - feature
+    - title: Benchmark and Evaluation
+      labels:
+        - benchmark
+        - evaluation
+    - title: Bug Fixes
+      labels:
+        - bug
+        - fix
+    - title: Documentation
+      labels:
+        - documentation
+        - docs
+    - title: Maintenance
+      labels:
+        - chore
+        - ci
+        - dependencies
+  exclude:
+    labels:
+      - skip-changelog

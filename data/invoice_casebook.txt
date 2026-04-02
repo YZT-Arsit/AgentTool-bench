@@ -1,0 +1,2 @@
+Customer invoice INV-9 is tied to request REQ-404.
+Use incident logs for live evidence.

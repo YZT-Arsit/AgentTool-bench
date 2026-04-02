@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autotoolbench"
+version = "0.1.0"
+description = "Adaptive agent benchmark for enterprise toolchains under noise and budget constraints"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Adaptive-Agent Maintainers" },
+]
+keywords = ["agent", "benchmark", "llm", "tool-use", "evaluation"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "pydantic>=2.0",
+  "rich>=13.0",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.11.0",
+]
+openai = [
+  "openai>=1.0",
+]
+
+[project.scripts]
+autotoolbench = "autotoolbench.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/YZT-Arsit/AutoTool-Agent"
+Repository = "https://github.com/YZT-Arsit/AutoTool-Agent"
+Issues = "https://github.com/YZT-Arsit/AutoTool-Agent/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
