@@ -66,7 +66,7 @@ Look for:
 
 ### Report
 
-- [reports/latest_report.md](/Users/Hoshino/Downloads/AutoTool-Agent/reports/latest_report.md)
+- [reports/latest_report.md](../reports/latest_report.md)
 
 Good sections to show live:
 - `Overall Matrix`

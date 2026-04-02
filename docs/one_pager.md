@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="/Users/Hoshino/Downloads/AutoTool-Agent/README.md">README</a> ·
-  <a href="/Users/Hoshino/Downloads/AutoTool-Agent/docs/demo.md">Demo</a> ·
-  <a href="/Users/Hoshino/Downloads/AutoTool-Agent/docs/benchmark_methodology.md">Methodology</a> ·
-  <a href="/Users/Hoshino/Downloads/AutoTool-Agent/docs/failure_taxonomy.md">Failure Taxonomy</a>
+  <a href="../README.md">README</a> ·
+  <a href="demo.md">Demo</a> ·
+  <a href="benchmark_methodology.md">Methodology</a> ·
+  <a href="failure_taxonomy.md">Failure Taxonomy</a>
 </p>
 
 ---
@@ -100,9 +100,9 @@ That sequence usually communicates both implementation depth and evaluation matu
 
 ## Supporting Docs
 
-- [README.md](/Users/Hoshino/Downloads/AutoTool-Agent/README.md)
-- [benchmark_methodology.md](/Users/Hoshino/Downloads/AutoTool-Agent/docs/benchmark_methodology.md)
-- [failure_taxonomy.md](/Users/Hoshino/Downloads/AutoTool-Agent/docs/failure_taxonomy.md)
-- [ablation_guide.md](/Users/Hoshino/Downloads/AutoTool-Agent/docs/ablation_guide.md)
-- [trajectory_reading_guide.md](/Users/Hoshino/Downloads/AutoTool-Agent/docs/trajectory_reading_guide.md)
-- [demo.md](/Users/Hoshino/Downloads/AutoTool-Agent/docs/demo.md)
+- [README.md](../README.md)
+- [benchmark_methodology.md](benchmark_methodology.md)
+- [failure_taxonomy.md](failure_taxonomy.md)
+- [ablation_guide.md](ablation_guide.md)
+- [trajectory_reading_guide.md](trajectory_reading_guide.md)
+- [demo.md](demo.md)
